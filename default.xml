@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-	   revision="refs/tags/android-5.0.2_r1" />
+	   revision="refs/tags/android-6.0.0_r26" />
 
   <remote  name="github"
            fetch=".."
@@ -13,16 +13,16 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-12.0"
+  <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="scotthartbti/platform_build" revision="lp5.0" >
+  <project path="build" name="SiliconAcid/platform_build" revision="bs6.0-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="scotthartbti/android" revision="lp5.0" />
+  <project path="android" name="SiliconAcid/android" revision="bs6.0-wip" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
