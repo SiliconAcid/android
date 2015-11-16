@@ -6,9 +6,10 @@
            review="android-review.googlesource.com"
 	   revision="refs/tags/android-6.0.0_r26" />
 
-  <remote  name="github"
+  <remote  name="cmod"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="review.cyanogenmod.org" 
+           revision="refs/heads/cm-13.0" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
