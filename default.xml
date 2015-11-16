@@ -29,11 +29,11 @@
   <project path="android" name="SiliconAcid/android" />
   <project path="frameworks/base" name="SiliconAcid/android_frameworks_base" />
   <project path="frameworks/opt/hardware" name="SiliconAcid/android_frameworks_opt_hardware" />
-  <project path="packages/apps/BeanStalkPapers" name="SiliconAcid/android_packages_apps_BeanStalkPapers" />
-  <project path="packages/apps/OmniSwitch" name="SiliconAcid/android_packages_apps_OmniSwitch" />
-  <project path="packages/apps/Settings" name="SiliconAcid/android_packages_apps_Settings" />
+  <project path="packages/apps/BeanStalkPapers" name="SiliconAcid/packages_apps_BeanStalkPapers" />
+  <project path="packages/apps/OmniSwitch" name="SiliconAcid/packages_apps_OmniSwitch" />
+  <project path="packages/apps/Settings" name="SiliconAcid/packages_apps_Settings" />
   <project path="packages/inputmethods/LatinIME" name="SiliconAcid/packages_inputmethods_LatinIME" />
-  <project path="system/core" name="SiliconAcid/platform_system_core" />
+  <project path="system/core" name="SiliconAcid/android_system_core" />
   <project path="vendor/beanstalk" name="SiliconAcid/android_vendor_beanstalk" />
   <!-- Needed for CyanogenMod parts of ROM -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cmod" />
