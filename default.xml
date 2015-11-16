@@ -88,7 +88,7 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,tradefed" remote="cmod" />
   <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" remote="cmod" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="cmod" />
-  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" />
+  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" remote="cmod" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cmod" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="cmod" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="cmod" />
