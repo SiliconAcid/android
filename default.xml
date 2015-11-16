@@ -88,12 +88,12 @@
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,tradefed" remote="cmod" />
   <project path="external/jsr308" name="CyanogenMod/android_external_jsr308" remote="cmod" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="cmod" />
+  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cmod" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="cmod" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="cmod" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="cmod" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" remote="cmod" />
-  <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="cmod" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="cmod" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" remote="cmod" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cmod" />
@@ -382,7 +382,6 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libavc" name="CyanogenMod/android_external_libavc" groups="pdk" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
