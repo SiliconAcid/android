@@ -50,6 +50,7 @@
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" remote="cmod" />
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" remote="cmod" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cmod" />
+  <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="cmod" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="cmod" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cmod" />
   <project path="external/android/support-prebuilt" name="CyanogenMod/external_android_support-prebuilt" revision="master" />
@@ -78,6 +79,7 @@
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cmod" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="cmod" />
   <project path="external/gmock" name="CyanogenMod/android_external_gmock" remote="cmod" />
+  <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" remote="cmod" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cmod" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" remote="cmod" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" remote="cmod" />
@@ -310,7 +312,6 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
-  <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -358,7 +359,6 @@
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-fonts/dancing-script" name="platform/external/google-fonts/dancing-script" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" remote="aosp" />
-  <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" remote="aosp" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
