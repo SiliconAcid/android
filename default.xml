@@ -9,10 +9,6 @@
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
-
-  <remote  name="bean"
-  	   fetch=".." 
-  	   revision="refs/heads/bs6.0-wip />
   	   
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -22,15 +18,15 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SiliconAcid/platform_build" remote="bean" >
+  <project path="build" name="SiliconAcid/platform_build" revision="bs6.0-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- Needed for BeanStalk Part of ROM -->
-  <project path="android" name="SiliconAcid/android" remote="bean" />
-  <project path="packages/apps/BeanStalkPapers" name="SiliconAcid/android_packages_apps_BeanStalkPapers" remote="bean" />
-  <project path="packages/apps/OmniSwitch" name="SiliconAcid/android_packages_apps_OmniSwitch" remote="bean" />
-  <project path="packages/apps/Settings" name="SiliconAcid/android_packages_apps_Settings" remote="bean" />
-  <project path="vendor/beanstalk" name="SiliconAcid/android_vendor_beanstalk" remote="bean" />
+  <project path="android" name="SiliconAcid/android" revision="bs6.0-wip" />
+  <project path="packages/apps/BeanStalkPapers" name="SiliconAcid/android_packages_apps_BeanStalkPapers" revision="bs6.0-wip" />
+  <project path="packages/apps/OmniSwitch" name="SiliconAcid/android_packages_apps_OmniSwitch" revision="bs6.0-wip" />
+  <project path="packages/apps/Settings" name="SiliconAcid/android_packages_apps_Settings" revision="bs6.0-wip" />
+  <project path="vendor/beanstalk" name="SiliconAcid/android_vendor_beanstalk" revision="bs6.0-wip" />
   <!-- Needed for CyanogenMod parts of ROM -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
