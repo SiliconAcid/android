@@ -18,7 +18,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SiliconAcid/platform_build" revision="bs6.0-wip" >
+  <project path="build" name="SiliconAcid/android_build" revision="bs6.0-wip" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- Needed for BeanStalk Part of ROM -->
