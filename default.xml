@@ -8,8 +8,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.org" 
-           revision="refs/heads/cm-13.0" />
+           review="review.cyanogenmod.org" />
 
   <remote  name="bean"
   	   fetch=".." 
