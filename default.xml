@@ -23,9 +23,9 @@
   </project>
   <!-- Needed for BeanStalk Part of ROM -->
   <project path="android" name="SiliconAcid/android" revision="bs6.0-wip" />
-  <project path="packages/apps/BeanStalkPapers" name="SiliconAcid/android_packages_apps_BeanStalkPapers" revision="bs6.0-wip" />
-  <project path="packages/apps/OmniSwitch" name="SiliconAcid/android_packages_apps_OmniSwitch" revision="bs6.0-wip" />
-  <project path="packages/apps/Settings" name="SiliconAcid/android_packages_apps_Settings" revision="bs6.0-wip" />
+  <project path="packages/apps/BeanStalkPapers" name="SiliconAcid/packages_apps_BeanStalkPapers" revision="bs6.0-wip" />
+  <project path="packages/apps/OmniSwitch" name="SiliconAcid/packages_apps_OmniSwitch" revision="bs6.0-wip" />
+  <project path="packages/apps/Settings" name="SiliconAcid/packages_apps_Settings" revision="bs6.0-wip" />
   <project path="vendor/beanstalk" name="SiliconAcid/android_vendor_beanstalk" revision="bs6.0-wip" />
   <!-- Needed for CyanogenMod parts of ROM -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
